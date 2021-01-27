@@ -3,13 +3,7 @@
 Edited by Palkit Lohia
 Merged CEEVEE with KARDS from Styleshouts :)
 
-<<<<<<< HEAD
-=======
-Edited by Palkit Lohia
-Merged CEEVEE with KARDS from Styleshouts :) 
 
-
->>>>>>> f7a2fc9abf33c308b5d82c3b9244db896d41b669
 You may contact me at palkitlohia15@iitkgp.ac.in / palkitlohia2001@outlook.com .
 
 SOURCES AND CREDITS:
