@@ -1,6 +1,7 @@
 # Personal Website Resume for Palkit Lohia
 
-Edited by Palkit Lohia
+Edited by Palkit Lohia,
+
 Merged CEEVEE with KARDS from Styleshouts :)
 
 
