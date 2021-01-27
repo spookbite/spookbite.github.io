@@ -1,4 +1,4 @@
-# Personal Website Resume for Computer Science 
+# Personal Website Resume for Palkit Lohia
 
 
 Edited by Palkit Lohia
