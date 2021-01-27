@@ -1,44 +1,885 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8"/>
-	<title>SF First Assignment</title>
-	<link rel="stylesheet" type="text/css" href="static/style/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-</head>
-<style>
-	body{
-	    background-image:url("static/img/firstpage/first_bg.jpg");
-	}
-</style>
-<body>
-	<div class="list">
-		<div class="bio">
-			<h2>wtfspooky</h2>
-		</div>
 
-		<div class="links">
-			<ul>
-				<li><a href="fourthcode.html">Contact Me</a></li>
-				<li><a href="thirdcode.html">Interests</a></li>
-				<li><a href="htmlsecond.html">Acads & Awards</a></li>
-				<li><a href="index.html">Home</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="int_body">
-		<div class="img">
-			<img src="static/img/firstpage/palkit.jpg" class="palkit" height="250px" width="250px" margin="10px">
-		</div>
-		<div class="int_txt">
-			<h3 class="intro"> Hey there, <br> My name is <a style="color: rgb(58, 196, 215);">Palkit Lohia</a> </h3>
-			<p class="info"><b>I am a 2nd year undergraduate student, pursuing integrated Master of Science in Economics at IIT Kharagpur. I am a resident at LBS hall of residence. I am from West Bengal.</b></p>
-			
-		</div>
-	</div>
-	<div class="footer">
-		<p class="knowmore"><span style="float:left">© Copyright Palkit Lohia</span> <span style="float:right">To know more about me, follow the links at the top right corner of the page.</span></p>
-	</div>
+   <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+	<title>Palkit's Personal Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="testimonials-bg.jpg" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#activities">Activities</a></li>
+            <li><a class="smoothscroll" href="#stats">Statistics</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Palkit Lohia</h1>
+            <h3> <span>Research Intern @ ISB Hyderabad</span> | <span>Economics Sophomore @ IIT Kharagpur</span></h3>
+            <h3><span>background pic: The Himalayas<span></h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://github.com/spookbite"><i class="fa fa-github"></i></a></li>
+               <li><a href="www.linkedin.com/in/palkitlohia"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="mailto:palkitlohia15@iitkgp.ac.in"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+<!-- about section
+   ================================================== -->
+   <section id="about">  
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>About</h5>
+            <h1>Let me introduce myself.</h1>
+
+            <div class="intro-info">
+
+               <img src="images/profilepic.jpg" alt="Profile Picture">
+
+               <p class="lead">I'm an IIT Kharagpur, class of 2024, undergraduate majoring in Economics. As an economics student with interest in Artificial Intelligence, I have taken courses across Machine Learning and NLP. I am Interested in handling computationally heavy datasets to derive insights for impactful decision making.</p>
+            </div>            
+
+         </div>         
+      </div> <!-- /section-intro -->
+
+      <div class="row about-content">
+
+         <div class="col-six tab-full">
+
+            <h3>Profile</h3>
+            <p>Currently, I'm seeking a Research Intern/ part time data analyst position. I can re-locate if needed. If you think I'm a good fit, please contant me via <a href="mailto:palkitlohia15@iitkgp.ac.in">palkitlohia15@iitkgp.ac.in</a>.</p>
+
+            <ul class="info-list">
+               <li>
+                  <strong>Fullname:</strong>
+                  <span>Palkit Lohia</span>
+               </li>
+               <li>
+                  <strong>Birth Date:</strong>
+                  <span>June 15, 2001</span>
+               </li>
+               <li>
+                  <strong>Email:</strong>
+                  <span>palkitlohia15@iitkgp.ac.in</span>
+               </li>
+
+            </ul> <!-- /info-list -->
+
+         </div>
+
+         <div class="col-six tab-full">
+
+            <h3>Skills</h3>
+            <p>I'm an independent teamworker strong in research and coding. My areas of expertise are Data Science and NLP. Below are highlights of my technical skills:</p>
+
+            <ul class="skill-bars">
+               <li>
+                  <div class="progress percent90"><span>90%</span></div>
+                  <strong>Python, Pandas, NLTK, PyCaret</strong>
+               </li>
+               <li>
+                  <div class="progress percent90"><span>60%</span></div>
+                  <strong>C/C++</strong>
+               </li>
+               <li>
+                  <div class="progress percent60"><span>60%</span></div>
+                  <strong>Numpy, Matplotlib, Seaborn</strong>
+               </li>
+      
+            </ul> <!-- /skill-bars -->    
+
+         </div>
+
+      </div>
+
+      <div class="row button-section">
+         <div class="col-twelve">
+            <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+            <a href="files/resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+         </div>         
+      </div>
+   </section> <!-- /process-->    
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Resume</h5>
+            <h1>More of my credentials.</h1>
+
+            <p class="lead">Here are my work experiences and education.</p>
+
+         </div>  
+      </div><!-- /section-intro -->
+
+      <!-- Work experience 
+      ----------------------------------------------- -->
+      <div class="row resume-timeline">
+
+         <div class="col-twelve resume-header">
+
+            <h2>Work Experience</h2>
+
+         </div> <!-- /resume-header -->
+
+         <div class="col-twelve">
+
+            <div class="timeline-wrap">
+
+               <div class="timeline-block"> 
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Research Intern</h3>
+                     <p>November 2020 - March 2021</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://www.isb.edu/en.html" target="_blank">Indian School of Business</a></h4>
+                     <p> Worked in Srini Raju Centre for IT and the Networked Economy as a Research Intern. During my Internship period, I worked on 2 major projects ,namely, Variation in Stock Prices due to Social Media Sentiment and Gender Classification of Patents.
+                     </p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+
+               <div class="timeline-block"> 
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Natural Language Processing Intern</h3>
+                     <p>October 2020 - November 2020</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://topcrop.in/" target="_blank">TopCrop.in</a></h4>
+                     <p> Worked as a Natural Language Processing Intern to classify Products into HS Codes based on Description of the Product.
+                     </p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+
+            </div> <!-- /timeline-wrap -->            
+
+         </div> <!-- /col-twelve -->
+         
+         <div class="col-twelve resume-header">
+
+            <h2>Background Education</h2>
+
+         </div> <!-- /resume-header -->
+
+         <div class="col-twelve">
+
+            <div class="timeline-wrap">
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-pencil"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Integrated B.Sc + M.Sc</h3>
+                     <p>July 2019 - May 2024</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4>Indian Institute of Technology</h4>
+                     <p> Core Team Member at Kharagpur Open Source Society. Former Associate Member at Spring Fest.</p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa fa-pencil"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>HSC (XII)</h3>
+                     <p>April 2017 - March 2019</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4>SKP Vidya Vihar</h4>
+                     <p> Graduated 3rd in class out of 350 students, with an overall of 94.6% .</p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa fa-pencil"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>SSC (X)</h3>
+                     <p>April 2006 - March 2017</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4>St. Vincent's High and Technical School</h4>
+                     <p>Awarded the Best Boy in the School for the session 2016-2017. Managed the Tech Team of the School Editorial Board. </p>
+                     <p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+            </div> <!-- /timeline-wrap -->            
+
+         </div> <!-- /col-twelve -->
+         
+      </div> <!-- /resume-timeline -->
+   </section>
+
+
+      
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Projects</h5>
+            <h1>Check out my creations.</h1>
+
+         </div>  
+      </div><!-- /section-intro -->
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/DoctorMi.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>DoctorMi</h5>
+                              <p>Health App</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/dnaplotlib.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>dnaplotlib</h5>
+                              <p>python visualization package</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/dotsaway.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Dotsaway</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/sift.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>SIFT</h5>
+                              <p>Disease diagnosis from HB</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/website.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Personal Website</h5>
+                              <p>Web Development</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div>  <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/syz.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Sigma Psi Zeta</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/jellyfish.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Jellyfish Adsorbent</h5>
+                              <p>Researcher & Developer</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/ecig.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Ecig Analysis</h5>
+                              <p>PCA Analysis of Ecig MS</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-DoctorMi.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>DoctorMi</h4>
+			      <p>iOS app that displays user health diagnosis info from breath analysis. Included features are daily info display, display option customization, showing other's info, and sharing one's health info.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Swift, Xcode, iOS development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/swkang73/DoctorMi" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-dnaplotlib.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>dnaplotlib</h4>
+			      <p>Python package for visualizing genetic circuits. Updated the package to support rendering Synthetic Biology Open Visual 2 glyphs & visualization of non-dna components. Picture credit: 
+                  <a href="http://www.lavanguardia.com/ciencia/20170302/42478152571/sistema-opeativo-frasco-adn.html" target="_blank">lavanguardia news</a></p>
+               <span class="categories"><i class="fa fa-tag"></i>python, synthetic biology, Google, Code for Summer</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/swkang73/dnaplotlib" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-dotsaway.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Dotsaway</h4>
+			      <p>Startup for providing trekking route customized for user's outdoor experience level, fitness, weather, and view. Built user chat platform & final route popup box</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, front-end development, javascript, css, html</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.facebook.com/profile.php?id=100009680869808" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-sift.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>SIFT</h4>
+			      <p>PCA analysis of Human Breath (HB) measured through Selected Ion Flow Tube-Mass Spectroscopy. Visualization of differences between individual breath through dimension reduction. Research in Gross Lab, Stanford Medical Center</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/swkang73/sift" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-website.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Personal Website</h4>
+			      <p>Created own personal website for showing resume. Merged Ceeve and Kard platform from Styleshout. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, javascript, css, html</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-syz.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Sigma Psi Zeta Website</h4>
+			      <p>Updated website for Omicron Stanford Charter, Sigma Psi Zeta (SYZ). SYZ is the biggest Asian-interest sorority on campus. User traffic doubled during my time of development</p>
+               <span class="categories"><i class="fa fa-tag"></i>Web development, blog, activisim, asian-interest</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://stanfordsyz.weebly.com/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-jellyfish.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Jellyfish Heavy Metal Adsorbent</h4>
+			      <p>Three years of wetlab research on developing novel heavy metal adsorbent out of jellyfish Chondroitin Sulfate. Patented on 2016, recognized with second place in Intel ISEF 2015.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Biology, wetlab, patent</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.societyforscience.org/content/press-room/intel-isef-2015-grand-award-winners" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-ecig.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>E-cigarette analysis</h4>
+			      <p>Analyzed different e-cigarettes chemicals through processing mass spectra data. Research in Gross Lab, Stanford Medical Center</p>
+               <span class="categories"><i class="fa fa-tag"></i>Mass Spectroscopy, research, python, data analysis</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/swkang73/ecig" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+   <!-- activities Section
+   ================================================== -->
+   <section id="activities">
+
+      <div class="overlay"></div>
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Activities</h5>
+            <h1>My positions during undergraduate.</h1>
+
+            <p class="lead">Summary of my leadership & extracurricular activities</p>
+
+         </div>         
+      </div> <!-- /section-intro -->
+
+      <div class="row activity">
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Core Team Member</h3>
+                  <p class="info">Kharagpur Open Source Society<span>&bull;</span> <em class="date">February 2020 - Present</em></p>
+
+                  <p>
+                  Responsible for the smooth conduct of events to familiarize students with open source technologies and philosophy. <br>
+                  Organized Kharagpur Winter of Code (KWoC) which saw a participation of over 2500 students. <br>
+                  Designed event posters and took record of monthly meetings & discussion.<br>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Associate Member</h3>
+                  <p class="info">Spring Fest<span>&bull;</span> <em class="date">August 2020 - July 2020</em></p>
+
+                  <p>
+                  Sole member responsible for publicity drive in the city of Mumbai resulting in a 73% YoY increase in participation. <br>
+                  Coordinated with a team of 11 Campus Ambassadors and increased the visibility of the fest.<br>
+                  As an Information Kiosk Attache, acted as sole Point-of-Contact between 5000+ participants and the Organizing Committee. <br>
+                  <a href="https://springfest.in/" target="_blank">Spring Fest</a>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+      
+   </section> <!-- /activities --> 
+
+
+   <!-- stats Section
+   ================================================== -->
+   <section id="stats" class="count-up">
+
+      <div class="row">
+         <div class="col-twelve">
+
+            <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-file"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     10+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Projects Completed
+                  </h5>
+
+               </div> <!-- /stat -->               
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-trophy"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     10
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Awards Received
+                  </h5>
+
+               </div> <!-- /stat -->                           
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-magic"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     10+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Crazy Ideas
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-code"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     1000+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Hours Coding
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-globe"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     1000+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Network
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-book"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     100+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     TV Series watched
+                  </h5>
+
+               </div> <!-- /stat -->
+
+            </div> <!-- /stats-list -->
+
+         </div> <!-- /twelve -->
+      </div> <!-- /row -->
+
+   </section> <!-- /stats -->
+
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Contact</h5>
+            <h1>I'd Love To Connect With You.</h1>
+
+            <p class="lead">Let me get to know more about you.</p>
+
+         </div> 
+      </div> <!-- /section-intro -->
+
+      <div class="row contact-info">
+
+         <div class="col-four tab-full">
+
+            <div class="icon">
+               <i class="fa fa-location-arrow"></i>
+            </div>
+
+            <h5>Where to find me</h5>
+
+            <p>
+            LBS Hall of Residence<br>
+            IIT Kharagpur, Kharagpur<br>
+            721302 India
+            </p>
+
+         </div>
+
+         <div class="col-four tab-full collapse">
+
+            <div class="icon">
+               <i class="icon-mail"></i>
+            </div>
+
+            <h5>Email Me At</h5>
+
+            <p>palkitlohia15@iitkgp.ac.in<br>         
+            </p>
+
+         </div>
+	      
+	 <div class="col-four tab-full collapse">
+
+            <div class="icon">
+               <i class="fa fa-linkedin"></i>
+            </div>
+
+            <h5>Let's Connect</h5>
+            <a href="https://www.linkedin.com/in/palkitlohia/" target="_blank">LinkedIn Profile</a>
+
+         </div>
+         
+      </div> <!-- /contact-info -->
+      
+   </section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li> </li>
+               <li>Palkit Lohia</li>
+               <li> </li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
+<!-- Copyright 2014 CeeVee -->
+<!-- Design by Styleshout -->
