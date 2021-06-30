@@ -5,8 +5,6 @@ Edited by Palkit Lohia,
 Merged CEEVEE with KARDS from Styleshouts :)
 
 
-You may contact me at palkitlohia15@iitkgp.ac.in / palkitlohia2001@outlook.com .
-
 SOURCES AND CREDITS:
 
 Fonts:
